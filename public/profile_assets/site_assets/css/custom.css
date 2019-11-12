@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+a:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+div {} div:hover {} .home-block h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ab9466;
+}
+.home-block p,
+li,
+span {
+    color: #b1aa9c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #2a2b33;
+}
+p,
+li,
+a,
+span,
+table,
+tr,
+td,
+th {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #727070;
+}
+.wed-top {
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 0px;
+    max-width: 100%;
+    border: 0;
+    /* background: #fff; */
+    
+    box-shadow: 0px 4px 7px hsla(0, 0%, 1%, 0.47);
+    width: 100%;
+    top: 0;
+    transition: transform .2s ease-in;
+    position: fixed;
+    z-index: 6;
+    background: #642B73;
+    background: linear-gradient(to bottom, #9a4c98, #642B73);
+    background: linear-gradient(to bottom, #9a4c98, #6a3179);
+}
+.sp-mar-top-50 {
+    margin-top: 50px;
+}
+.wed-logo {
+    /* padding-top: 15px; */
+}
+.wed-logo a {} .wed-logo a img {
+    width: 130px;
+}
+.wed-menu {
+    float: right;
+    padding-top: 18px;
+}
+.wed-menu ul {
+    margin-bottom: 0px;
+    /* padding-top: 23px; */
+}
+.wed-menu ul li {
+    float: left;
+    display: inline-block;
+}
+
+/*==========================================================================*
+*     					COMMON STYLING OF PAGES						*
+*===========================================================================*/
+/*--========================== typography =================================--*/
+
+/*-------------------------------------------------*/
+/* =  TYPHGRAPHY
+/*-------------------------------------------------*/
+
+.typo-com {
+    border: 1px solid #d6d6d6;
+    position: relative;
+    overflow: hidden;
+}
+.head-typo {
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-top: 0px !important;
+}
+.head-typo h1 {
+    margin-top: 0px;
+}
+.head-typo h2 {
+    margin-top: 0px;
+}
+.head-typo h3 {
+    margin-top: 0px;
+    font-weight: 600;
+}
+.head-typo h4 {
+    margin-top: 0px;
+}
+.head-typo h5 {
+    margin-top: 0px;
+}
+.head-typo h6 {
+    margin-top: 0px;
+}
+.head-typo p {}
+.text-muted {
+    color: #8c8b8b;
+}
+.text-light-grey {
+    color: #ccc;
+}
+
+.text-white {
+    color: #ffffff;
+}
+.text-blue
+{
+	color:#accbe6;	
+}
+.text-success 
+{
+	color:#46ee6b;	
+}
+.text-warning
+{
+	color:#f29c22;	
+}
+.text-danger
+{
+	color:#fd0202;	
+}
+p.large {
+    font-size: 24px;
+	margin:10px 0;
+}
+
+.img-centered {
+    margin: 0 auto;
+	display:table;
+}
+
+/*===================== buttons =============*/
+.btn {
+	transition:all 0.3s ease-in-out 0.0s;
+	-webkit-transition: all 0.3s ease-in-out 0.0s;
+    -moz-transition: all 0.3s ease-in-out 0.0s;
+	padding:10px 15px;
+}
+.btn-info {
+    border-color: #c3dff3;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #c3dff3;
+	font-weight:600;
+}
+.btn-orange {
+    border-color: #f78500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #f78500;
+	font-weight:600;
+}
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+    color:#fff;
+    background-color: #e46d04;
+}
+
+.btn-green {
+    border-color: #42cc56;
+    font-weight: 700;
+    color: #fff;
+    background-color: #42cc56;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active {
+    border-color: #37a203;
+    background-color: #37a203;
+    color: #fff;
+	transition:all 0.3s ease-in-out 0.0s;
+	-webkit-transition: all 0.3s ease-in-out 0.0s;
+    -moz-transition: all 0.3s ease-in-out 0.0s;
+}
+
+.btn-red {
+    border-color: #e03146;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e03146;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active {
+    border-color: #c60505;
+    background-color: #c60505;
+    color: #fff;
+	transition:all 0.3s ease-in-out 0.0s;
+	-webkit-transition: all 0.3s ease-in-out 0.0s;
+    -moz-transition: all 0.3s ease-in-out 0.0s;
+}
+/*============= backgrounds=============*/
+.bg
+{
+	padding:15px;
+	margin:10px 0;	
+}
+.bg-dark-red
+{
+	background-color:#AD1308;	
+	color:#eee;
+}
+.bg-red
+{
+	background-color:#e03146;	
+	color:#eee;
+}
+.bg-orange
+{
+	background-color:#f78500;	
+}
+.bg-light-grey
+{
+	background-color:#ddd;	
+	color:#222;
+}
+.bg-grey
+{
+	background-color:#999;	
+	color:#222;
+}
+.bg-dark-grey
+{
+	background-color:#666;	
+	color:#fff;
+}
+.pattren-bg {
+    background-image: url(../images/back-patt.png);
+}
+.white-bg
+{
+	background-color:#fff;	
+}
+.padding30
+{
+	padding:30px;	
+}
+.padding15
+{
+	padding:15px;	
+}
+.padding10
+{
+	padding:10px;	
+}
+.padding5
+{
+	padding:5px;	
+}
+.ptopbot30
+{
+	padding:30px 0;
+}
+.plr-30
+{
+    padding:0 30px;	
+}
+.plr-15
+{
+    padding:0 15px;	
+}
+.margin30
+{
+	margin:30px;	
+}
+.margin15
+{
+	margin:15px;	
+}
+.margin10
+{
+	margin:10px;	
+}
+.margin5
+{
+	margin:5px;	
+}
+.mtopbot30
+{
+	margin:30px 0;
+}
+.mlr-30
+{
+    margin:0 30px;	
+}
+.mlr-15
+{
+    margin:0 15px;	
+}
+.mtopbot30
+{
+	margin:30px 0;
+}
+.mtopbot15
+{
+	margin:15px 0;
+}
+.nomargin
+{
+	margin:0px;	
+}
+/*badge*/
+
+.badge.bg-primary {
+    background: #ffffff;
+	color:#0d76c6;
+}
+.badge.bg-success {
+    background: #a9d86e;
+}
+
+.badge.bg-warning {
+    background: #FCB322;
+}
+
+.badge.bg-danger {
+    background: #cf2a24;
+}
+
+.badge.bg-info {
+    background: #41cac0;
+}
+
+.badge.bg-inverse {
+    background: #2A3542;
+}
+/*Custom styling end*/
